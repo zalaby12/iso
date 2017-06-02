@@ -1,0 +1,866 @@
+Neural Net Using Randomized Optimization
+
+
+Error results for RHC
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 1
+Nodes in hidden layer:21
+Number of classes:10
+Results for RHC: 
+Correctly classified 65.0 instances.
+Incorrectly classified 235.0 instances.
+Percent correctly classified: 21.667%
+Training time: 0.221 seconds
+Testing time: 0.016 seconds
+ RMSE: 0.8850612031567836
+
+Results for RHC
+Number predicted as 0 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 1 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 2 is: 138 and actual is: 0
+Results for RHC
+Number predicted as 3 is: 0 and actual is: 1
+Results for RHC
+Number predicted as 4 is: 0 and actual is: 8
+Results for RHC
+Number predicted as 5 is: 0 and actual is: 94
+Results for RHC
+Number predicted as 6 is: 162 and actual is: 130
+Results for RHC
+Number predicted as 7 is: 0 and actual is: 53
+Results for RHC
+Number predicted as 8 is: 0 and actual is: 13
+Results for RHC
+Number predicted as 9 is: 0 and actual is: 1
+
+Error results for SA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 1
+Nodes in hidden layer:21
+Number of classes:10
+Results for SA: 
+Correctly classified 93.0 instances.
+Incorrectly classified 207.0 instances.
+Percent correctly classified: 31.000%
+Training time: 0.145 seconds
+Testing time: 0.013 seconds
+ RMSE: 0.8306623862918074
+
+Results for SA
+Number predicted as 0 is: 0 and actual is: 0
+Results for SA
+Number predicted as 1 is: 0 and actual is: 0
+Results for SA
+Number predicted as 2 is: 5 and actual is: 0
+Results for SA
+Number predicted as 3 is: 0 and actual is: 1
+Results for SA
+Number predicted as 4 is: 0 and actual is: 8
+Results for SA
+Number predicted as 5 is: 295 and actual is: 94
+Results for SA
+Number predicted as 6 is: 0 and actual is: 130
+Results for SA
+Number predicted as 7 is: 0 and actual is: 53
+Results for SA
+Number predicted as 8 is: 0 and actual is: 13
+Results for SA
+Number predicted as 9 is: 0 and actual is: 1
+
+Error results for GA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 1
+Nodes in hidden layer:21
+Number of classes:10
+Results for GA: 
+Correctly classified 130.0 instances.
+Incorrectly classified 170.0 instances.
+Percent correctly classified: 43.333%
+Training time: 1.068 seconds
+Testing time: 0.011 seconds
+ RMSE: 0.752772652709081
+
+Results for GA
+Number predicted as 0 is: 0 and actual is: 0
+Results for GA
+Number predicted as 1 is: 0 and actual is: 0
+Results for GA
+Number predicted as 2 is: 0 and actual is: 0
+Results for GA
+Number predicted as 3 is: 0 and actual is: 1
+Results for GA
+Number predicted as 4 is: 0 and actual is: 8
+Results for GA
+Number predicted as 5 is: 0 and actual is: 94
+Results for GA
+Number predicted as 6 is: 300 and actual is: 130
+Results for GA
+Number predicted as 7 is: 0 and actual is: 53
+Results for GA
+Number predicted as 8 is: 0 and actual is: 13
+Results for GA
+Number predicted as 9 is: 0 and actual is: 1
+
+Error results for RHC
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 10
+Nodes in hidden layer:21
+Number of classes:10
+Results for RHC: 
+Correctly classified 11.0 instances.
+Incorrectly classified 289.0 instances.
+Percent correctly classified: 3.667%
+Training time: 1.028 seconds
+Testing time: 0.007 seconds
+ RMSE: 0.9814954576223638
+
+Results for RHC
+Number predicted as 0 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 1 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 2 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 3 is: 0 and actual is: 1
+Results for RHC
+Number predicted as 4 is: 0 and actual is: 16
+Results for RHC
+Number predicted as 5 is: 0 and actual is: 89
+Results for RHC
+Number predicted as 6 is: 0 and actual is: 129
+Results for RHC
+Number predicted as 7 is: 0 and actual is: 53
+Results for RHC
+Number predicted as 8 is: 300 and actual is: 11
+Results for RHC
+Number predicted as 9 is: 0 and actual is: 1
+
+Error results for SA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 10
+Nodes in hidden layer:21
+Number of classes:10
+Results for SA: 
+Correctly classified 0.0 instances.
+Incorrectly classified 300.0 instances.
+Percent correctly classified: 0.000%
+Training time: 0.844 seconds
+Testing time: 0.007 seconds
+ RMSE: 1.0
+
+Results for SA
+Number predicted as 0 is: 0 and actual is: 0
+Results for SA
+Number predicted as 1 is: 297 and actual is: 0
+Results for SA
+Number predicted as 2 is: 0 and actual is: 0
+Results for SA
+Number predicted as 3 is: 0 and actual is: 1
+Results for SA
+Number predicted as 4 is: 0 and actual is: 16
+Results for SA
+Number predicted as 5 is: 0 and actual is: 89
+Results for SA
+Number predicted as 6 is: 0 and actual is: 129
+Results for SA
+Number predicted as 7 is: 0 and actual is: 53
+Results for SA
+Number predicted as 8 is: 3 and actual is: 11
+Results for SA
+Number predicted as 9 is: 0 and actual is: 1
+
+Error results for GA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 10
+Nodes in hidden layer:21
+Number of classes:10
+Results for GA: 
+Correctly classified 96.0 instances.
+Incorrectly classified 204.0 instances.
+Percent correctly classified: 32.000%
+Training time: 9.630 seconds
+Testing time: 0.005 seconds
+ RMSE: 0.8246211251235321
+
+Results for GA
+Number predicted as 0 is: 0 and actual is: 0
+Results for GA
+Number predicted as 1 is: 0 and actual is: 0
+Results for GA
+Number predicted as 2 is: 0 and actual is: 0
+Results for GA
+Number predicted as 3 is: 0 and actual is: 1
+Results for GA
+Number predicted as 4 is: 0 and actual is: 16
+Results for GA
+Number predicted as 5 is: 217 and actual is: 89
+Results for GA
+Number predicted as 6 is: 83 and actual is: 129
+Results for GA
+Number predicted as 7 is: 0 and actual is: 53
+Results for GA
+Number predicted as 8 is: 0 and actual is: 11
+Results for GA
+Number predicted as 9 is: 0 and actual is: 1
+
+Error results for RHC
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 50
+Nodes in hidden layer:21
+Number of classes:10
+Results for RHC: 
+Correctly classified 91.0 instances.
+Incorrectly classified 209.0 instances.
+Percent correctly classified: 30.333%
+Training time: 3.628 seconds
+Testing time: 0.007 seconds
+ RMSE: 0.834665601703261
+
+Results for RHC
+Number predicted as 0 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 1 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 2 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 3 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 4 is: 0 and actual is: 15
+Results for RHC
+Number predicted as 5 is: 297 and actual is: 92
+Results for RHC
+Number predicted as 6 is: 3 and actual is: 133
+Results for RHC
+Number predicted as 7 is: 0 and actual is: 55
+Results for RHC
+Number predicted as 8 is: 0 and actual is: 5
+Results for RHC
+Number predicted as 9 is: 0 and actual is: 0
+
+Error results for SA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 50
+Nodes in hidden layer:21
+Number of classes:10
+Results for SA: 
+Correctly classified 17.0 instances.
+Incorrectly classified 283.0 instances.
+Percent correctly classified: 5.667%
+Training time: 2.813 seconds
+Testing time: 0.007 seconds
+ RMSE: 0.971253485622231
+
+Results for SA
+Number predicted as 0 is: 0 and actual is: 0
+Results for SA
+Number predicted as 1 is: 0 and actual is: 0
+Results for SA
+Number predicted as 2 is: 0 and actual is: 0
+Results for SA
+Number predicted as 3 is: 0 and actual is: 0
+Results for SA
+Number predicted as 4 is: 151 and actual is: 15
+Results for SA
+Number predicted as 5 is: 0 and actual is: 92
+Results for SA
+Number predicted as 6 is: 0 and actual is: 133
+Results for SA
+Number predicted as 7 is: 0 and actual is: 55
+Results for SA
+Number predicted as 8 is: 149 and actual is: 5
+Results for SA
+Number predicted as 9 is: 0 and actual is: 0
+
+Error results for GA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 50
+Nodes in hidden layer:21
+Number of classes:10
+Results for GA: 
+Correctly classified 130.0 instances.
+Incorrectly classified 170.0 instances.
+Percent correctly classified: 43.333%
+Training time: 52.021 seconds
+Testing time: 0.005 seconds
+ RMSE: 0.752772652709081
+
+Results for GA
+Number predicted as 0 is: 0 and actual is: 0
+Results for GA
+Number predicted as 1 is: 0 and actual is: 0
+Results for GA
+Number predicted as 2 is: 0 and actual is: 0
+Results for GA
+Number predicted as 3 is: 0 and actual is: 0
+Results for GA
+Number predicted as 4 is: 0 and actual is: 15
+Results for GA
+Number predicted as 5 is: 28 and actual is: 92
+Results for GA
+Number predicted as 6 is: 272 and actual is: 133
+Results for GA
+Number predicted as 7 is: 0 and actual is: 55
+Results for GA
+Number predicted as 8 is: 0 and actual is: 5
+Results for GA
+Number predicted as 9 is: 0 and actual is: 0
+
+Error results for RHC
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 100
+Nodes in hidden layer:21
+Number of classes:10
+Results for RHC: 
+Correctly classified 1.0 instances.
+Incorrectly classified 299.0 instances.
+Percent correctly classified: 0.333%
+Training time: 6.352 seconds
+Testing time: 0.006 seconds
+ RMSE: 0.9983319421247958
+
+Results for RHC
+Number predicted as 0 is: 23 and actual is: 0
+Results for RHC
+Number predicted as 1 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 2 is: 191 and actual is: 0
+Results for RHC
+Number predicted as 3 is: 12 and actual is: 1
+Results for RHC
+Number predicted as 4 is: 73 and actual is: 18
+Results for RHC
+Number predicted as 5 is: 1 and actual is: 98
+Results for RHC
+Number predicted as 6 is: 0 and actual is: 127
+Results for RHC
+Number predicted as 7 is: 0 and actual is: 43
+Results for RHC
+Number predicted as 8 is: 0 and actual is: 12
+Results for RHC
+Number predicted as 9 is: 0 and actual is: 1
+
+Error results for SA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 100
+Nodes in hidden layer:21
+Number of classes:10
+Results for SA: 
+Correctly classified 127.0 instances.
+Incorrectly classified 173.0 instances.
+Percent correctly classified: 42.333%
+Training time: 5.694 seconds
+Testing time: 0.005 seconds
+ RMSE: 0.7593857166596345
+
+Results for SA
+Number predicted as 0 is: 0 and actual is: 0
+Results for SA
+Number predicted as 1 is: 0 and actual is: 0
+Results for SA
+Number predicted as 2 is: 3 and actual is: 0
+Results for SA
+Number predicted as 3 is: 0 and actual is: 1
+Results for SA
+Number predicted as 4 is: 0 and actual is: 18
+Results for SA
+Number predicted as 5 is: 0 and actual is: 98
+Results for SA
+Number predicted as 6 is: 297 and actual is: 127
+Results for SA
+Number predicted as 7 is: 0 and actual is: 43
+Results for SA
+Number predicted as 8 is: 0 and actual is: 12
+Results for SA
+Number predicted as 9 is: 0 and actual is: 1
+
+Error results for GA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 100
+Nodes in hidden layer:21
+Number of classes:10
+Results for GA: 
+Correctly classified 127.0 instances.
+Incorrectly classified 173.0 instances.
+Percent correctly classified: 42.333%
+Training time: 106.959 seconds
+Testing time: 0.006 seconds
+ RMSE: 0.7593857166596345
+
+Results for GA
+Number predicted as 0 is: 0 and actual is: 0
+Results for GA
+Number predicted as 1 is: 0 and actual is: 0
+Results for GA
+Number predicted as 2 is: 0 and actual is: 0
+Results for GA
+Number predicted as 3 is: 0 and actual is: 1
+Results for GA
+Number predicted as 4 is: 0 and actual is: 18
+Results for GA
+Number predicted as 5 is: 0 and actual is: 98
+Results for GA
+Number predicted as 6 is: 300 and actual is: 127
+Results for GA
+Number predicted as 7 is: 0 and actual is: 43
+Results for GA
+Number predicted as 8 is: 0 and actual is: 12
+Results for GA
+Number predicted as 9 is: 0 and actual is: 1
+
+Error results for RHC
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 500
+Nodes in hidden layer:21
+Number of classes:10
+Results for RHC: 
+Correctly classified 116.0 instances.
+Incorrectly classified 184.0 instances.
+Percent correctly classified: 38.667%
+Training time: 30.145 seconds
+Testing time: 0.006 seconds
+ RMSE: 0.7831560082980487
+
+Results for RHC
+Number predicted as 0 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 1 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 2 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 3 is: 0 and actual is: 2
+Results for RHC
+Number predicted as 4 is: 0 and actual is: 17
+Results for RHC
+Number predicted as 5 is: 20 and actual is: 97
+Results for RHC
+Number predicted as 6 is: 280 and actual is: 114
+Results for RHC
+Number predicted as 7 is: 0 and actual is: 56
+Results for RHC
+Number predicted as 8 is: 0 and actual is: 14
+Results for RHC
+Number predicted as 9 is: 0 and actual is: 0
+
+Error results for SA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 500
+Nodes in hidden layer:21
+Number of classes:10
+Results for SA: 
+Correctly classified 58.0 instances.
+Incorrectly classified 242.0 instances.
+Percent correctly classified: 19.333%
+Training time: 28.904 seconds
+Testing time: 0.006 seconds
+ RMSE: 0.8981462390204986
+
+Results for SA
+Number predicted as 0 is: 8 and actual is: 0
+Results for SA
+Number predicted as 1 is: 96 and actual is: 0
+Results for SA
+Number predicted as 2 is: 0 and actual is: 0
+Results for SA
+Number predicted as 3 is: 0 and actual is: 2
+Results for SA
+Number predicted as 4 is: 0 and actual is: 17
+Results for SA
+Number predicted as 5 is: 196 and actual is: 97
+Results for SA
+Number predicted as 6 is: 0 and actual is: 114
+Results for SA
+Number predicted as 7 is: 0 and actual is: 56
+Results for SA
+Number predicted as 8 is: 0 and actual is: 14
+Results for SA
+Number predicted as 9 is: 0 and actual is: 0
+
+Error results for GA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 500
+Nodes in hidden layer:21
+Number of classes:10
+Results for GA: 
+Correctly classified 114.0 instances.
+Incorrectly classified 186.0 instances.
+Percent correctly classified: 38.000%
+Training time: 516.314 seconds
+Testing time: 0.005 seconds
+ RMSE: 0.7874007874011811
+
+Results for GA
+Number predicted as 0 is: 0 and actual is: 0
+Results for GA
+Number predicted as 1 is: 0 and actual is: 0
+Results for GA
+Number predicted as 2 is: 0 and actual is: 0
+Results for GA
+Number predicted as 3 is: 0 and actual is: 2
+Results for GA
+Number predicted as 4 is: 0 and actual is: 17
+Results for GA
+Number predicted as 5 is: 0 and actual is: 97
+Results for GA
+Number predicted as 6 is: 300 and actual is: 114
+Results for GA
+Number predicted as 7 is: 0 and actual is: 56
+Results for GA
+Number predicted as 8 is: 0 and actual is: 14
+Results for GA
+Number predicted as 9 is: 0 and actual is: 0
+
+Error results for RHC
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 1000
+Nodes in hidden layer:21
+Number of classes:10
+Results for RHC: 
+Correctly classified 123.0 instances.
+Incorrectly classified 177.0 instances.
+Percent correctly classified: 41.000%
+Training time: 63.891 seconds
+Testing time: 0.008 seconds
+ RMSE: 0.7681145747868608
+
+Results for RHC
+Number predicted as 0 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 1 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 2 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 3 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 4 is: 0 and actual is: 13
+Results for RHC
+Number predicted as 5 is: 17 and actual is: 98
+Results for RHC
+Number predicted as 6 is: 282 and actual is: 122
+Results for RHC
+Number predicted as 7 is: 1 and actual is: 53
+Results for RHC
+Number predicted as 8 is: 0 and actual is: 14
+Results for RHC
+Number predicted as 9 is: 0 and actual is: 0
+
+Error results for SA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 1000
+Nodes in hidden layer:21
+Number of classes:10
+Results for SA: 
+Correctly classified 107.0 instances.
+Incorrectly classified 193.0 instances.
+Percent correctly classified: 35.667%
+Training time: 61.670 seconds
+Testing time: 0.005 seconds
+ RMSE: 0.8020806277010643
+
+Results for SA
+Number predicted as 0 is: 0 and actual is: 0
+Results for SA
+Number predicted as 1 is: 0 and actual is: 0
+Results for SA
+Number predicted as 2 is: 0 and actual is: 0
+Results for SA
+Number predicted as 3 is: 0 and actual is: 0
+Results for SA
+Number predicted as 4 is: 0 and actual is: 13
+Results for SA
+Number predicted as 5 is: 232 and actual is: 98
+Results for SA
+Number predicted as 6 is: 63 and actual is: 122
+Results for SA
+Number predicted as 7 is: 5 and actual is: 53
+Results for SA
+Number predicted as 8 is: 0 and actual is: 14
+Results for SA
+Number predicted as 9 is: 0 and actual is: 0
+
+Error results for GA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 1000
+Nodes in hidden layer:21
+Number of classes:10
+Results for GA: 
+Correctly classified 120.0 instances.
+Incorrectly classified 180.0 instances.
+Percent correctly classified: 40.000%
+Training time: 1053.274 seconds
+Testing time: 0.006 seconds
+ RMSE: 0.7745966692414834
+
+Results for GA
+Number predicted as 0 is: 0 and actual is: 0
+Results for GA
+Number predicted as 1 is: 0 and actual is: 0
+Results for GA
+Number predicted as 2 is: 0 and actual is: 0
+Results for GA
+Number predicted as 3 is: 0 and actual is: 0
+Results for GA
+Number predicted as 4 is: 0 and actual is: 13
+Results for GA
+Number predicted as 5 is: 3 and actual is: 98
+Results for GA
+Number predicted as 6 is: 297 and actual is: 122
+Results for GA
+Number predicted as 7 is: 0 and actual is: 53
+Results for GA
+Number predicted as 8 is: 0 and actual is: 14
+Results for GA
+Number predicted as 9 is: 0 and actual is: 0
+
+Error results for RHC
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 10000
+Nodes in hidden layer:21
+Number of classes:10
+Results for RHC: 
+Correctly classified 138.0 instances.
+Incorrectly classified 162.0 instances.
+Percent correctly classified: 46.000%
+Training time: 675.567 seconds
+Testing time: 0.006 seconds
+ RMSE: 0.7348469228349535
+
+Results for RHC
+Number predicted as 0 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 1 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 2 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 3 is: 0 and actual is: 2
+Results for RHC
+Number predicted as 4 is: 1 and actual is: 8
+Results for RHC
+Number predicted as 5 is: 83 and actual is: 87
+Results for RHC
+Number predicted as 6 is: 203 and actual is: 135
+Results for RHC
+Number predicted as 7 is: 12 and actual is: 57
+Results for RHC
+Number predicted as 8 is: 1 and actual is: 10
+Results for RHC
+Number predicted as 9 is: 0 and actual is: 1
+
+Error results for SA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 10000
+Nodes in hidden layer:21
+Number of classes:10
+Results for SA: 
+Correctly classified 137.0 instances.
+Incorrectly classified 163.0 instances.
+Percent correctly classified: 45.667%
+Training time: 669.400 seconds
+Testing time: 0.006 seconds
+ RMSE: 0.7371114795831993
+
+Results for SA
+Number predicted as 0 is: 0 and actual is: 0
+Results for SA
+Number predicted as 1 is: 0 and actual is: 0
+Results for SA
+Number predicted as 2 is: 0 and actual is: 0
+Results for SA
+Number predicted as 3 is: 0 and actual is: 2
+Results for SA
+Number predicted as 4 is: 2 and actual is: 8
+Results for SA
+Number predicted as 5 is: 3 and actual is: 87
+Results for SA
+Number predicted as 6 is: 293 and actual is: 135
+Results for SA
+Number predicted as 7 is: 2 and actual is: 57
+Results for SA
+Number predicted as 8 is: 0 and actual is: 10
+Results for SA
+Number predicted as 9 is: 0 and actual is: 1
+
+Error results for GA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 10000
+Nodes in hidden layer:21
+Number of classes:10
+Results for GA: 
+Correctly classified 107.0 instances.
+Incorrectly classified 193.0 instances.
+Percent correctly classified: 35.667%
+Training time: 11022.953 seconds
+Testing time: 0.006 seconds
+ RMSE: 0.8020806277010643
+
+Results for GA
+Number predicted as 0 is: 0 and actual is: 0
+Results for GA
+Number predicted as 1 is: 0 and actual is: 0
+Results for GA
+Number predicted as 2 is: 0 and actual is: 0
+Results for GA
+Number predicted as 3 is: 0 and actual is: 2
+Results for GA
+Number predicted as 4 is: 0 and actual is: 8
+Results for GA
+Number predicted as 5 is: 124 and actual is: 87
+Results for GA
+Number predicted as 6 is: 176 and actual is: 135
+Results for GA
+Number predicted as 7 is: 0 and actual is: 57
+Results for GA
+Number predicted as 8 is: 0 and actual is: 10
+Results for GA
+Number predicted as 9 is: 0 and actual is: 1
+
+Error results for RHC
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 100000
+Nodes in hidden layer:21
+Number of classes:10
+Results for RHC: 
+Correctly classified 143.0 instances.
+Incorrectly classified 157.0 instances.
+Percent correctly classified: 47.667%
+Training time: 8013.867 seconds
+Testing time: 0.008 seconds
+ RMSE: 0.7234178138070235
+
+Results for RHC
+Number predicted as 0 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 1 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 2 is: 0 and actual is: 0
+Results for RHC
+Number predicted as 3 is: 0 and actual is: 3
+Results for RHC
+Number predicted as 4 is: 0 and actual is: 12
+Results for RHC
+Number predicted as 5 is: 43 and actual is: 88
+Results for RHC
+Number predicted as 6 is: 234 and actual is: 128
+Results for RHC
+Number predicted as 7 is: 23 and actual is: 61
+Results for RHC
+Number predicted as 8 is: 0 and actual is: 8
+Results for RHC
+Number predicted as 9 is: 0 and actual is: 0
+
+Error results for SA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 100000
+Nodes in hidden layer:21
+Number of classes:10
+Results for SA: 
+Correctly classified 144.0 instances.
+Incorrectly classified 156.0 instances.
+Percent correctly classified: 48.000%
+Training time: 7816.086 seconds
+Testing time: 0.007 seconds
+ RMSE: 0.7211102550927979
+
+Results for SA
+Number predicted as 0 is: 0 and actual is: 0
+Results for SA
+Number predicted as 1 is: 0 and actual is: 0
+Results for SA
+Number predicted as 2 is: 0 and actual is: 0
+Results for SA
+Number predicted as 3 is: 0 and actual is: 3
+Results for SA
+Number predicted as 4 is: 0 and actual is: 12
+Results for SA
+Number predicted as 5 is: 92 and actual is: 88
+Results for SA
+Number predicted as 6 is: 170 and actual is: 128
+Results for SA
+Number predicted as 7 is: 37 and actual is: 61
+Results for SA
+Number predicted as 8 is: 1 and actual is: 8
+Results for SA
+Number predicted as 9 is: 0 and actual is: 0
+
+Error results for GA
+---------------------------
+
+Number of attributes is: 11: 
+Training iterations: 100000
+Nodes in hidden layer:21
+Number of classes:10
+Results for GA: 
+Correctly classified 130.0 instances.
+Incorrectly classified 170.0 instances.
+Percent correctly classified: 43.333%
+Training time: 98964.182 seconds
+Testing time: 0.007 seconds
+ RMSE: 0.752772652709081
+
+Results for GA
+Number predicted as 0 is: 0 and actual is: 0
+Results for GA
+Number predicted as 1 is: 1 and actual is: 0
+Results for GA
+Number predicted as 2 is: 0 and actual is: 0
+Results for GA
+Number predicted as 3 is: 0 and actual is: 3
+Results for GA
+Number predicted as 4 is: 0 and actual is: 12
+Results for GA
+Number predicted as 5 is: 3 and actual is: 88
+Results for GA
+Number predicted as 6 is: 290 and actual is: 128
+Results for GA
+Number predicted as 7 is: 6 and actual is: 61
+Results for GA
+Number predicted as 8 is: 0 and actual is: 8
+Results for GA
+Number predicted as 9 is: 0 and actual is: 0

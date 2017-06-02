@@ -1,0 +1,32 @@
+[H[Jcompiling...
+done.
+
+
+running...
+
+File: Overhead.wav
+Channels: 2, Frames: 458752
+IO State: READING
+Sample Rate: 44100, Block Align: 6
+Valid Bits: 24, Bytes per sample: 3
+
+File: SNARE.wav
+Channels: 2, Frames: 458752
+IO State: READING
+Sample Rate: 44100, Block Align: 6
+Valid Bits: 24, Bytes per sample: 3
+
+********************
+reading in wav files...
+Done.
+********************
+
+**********
+
+Before randomizing
+BEFORE ICA
+filtering...
+
+
+done.
+

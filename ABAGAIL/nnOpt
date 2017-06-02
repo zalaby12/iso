@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+NeuralNetRuns="NeuralNetRuns.txt"
+
+
+ant 
+
+echo "Neural Net Using Randomized Optimization" > $NeuralNetRuns
+echo "" >> $NeuralNetRuns
+for numIterations in 1 10 50 100 500 1000 10000 100000
+do
+  java -cp ABAGAIL.jar opt.test.AbaloneTest $numIterations >> $NeuralNetRuns
+done
+
+
