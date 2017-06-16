@@ -25,6 +25,7 @@ public class Find {
 
   }
 
+
   private static int[] assignedRanks(double[] a, double[] b) {
 
     if(a[0] < b[0]) { return new int[] {0,1}; }

@@ -10,14 +10,14 @@ echo "Done."
 
 echo "compiling project..."
 
-javac -cp ABAGAIL/bin:.:JSAT/target/classes Example.java
+javac -cp ABAGAIL/bin:.:JSAT/target/classes:stdlib.jar Example.java
 
 echo "done."
 echo ""
 echo ""
 echo "running..."
 
-java -cp ABAGAIL/bin:.:JSAT/target/classes Example
+java -cp ABAGAIL/bin:.:JSAT/target/classes:stdlib.jar Example
 
 echo ""
 echo ""
