@@ -1,4 +1,4 @@
-package func.test;
+/**package func.test;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,7 +14,7 @@ import shared.Instance;
  * KNN test built to test the speed of splitter selectors in func.inst.KDTree
  * @author Robert Smith smithrobertlawrence@gmail.com
  * @version 1.0
- */
+
 public class KNNClassifierAbaloneTest {
 
     public static void main(String[] args){
@@ -83,3 +83,4 @@ public class KNNClassifierAbaloneTest {
         return instances;
     }
 }
+*/

@@ -12,6 +12,8 @@ import jsat.linear.SparseVector;
 import jsat.linear.Vec;
 import jsat.regression.RegressionDataSet;
 
+import javax.xml.crypto.Data;
+
 /**
  * SimpleData Set is a basic implementation of a data set. Has no assumptions about the task that is going to be performed. 
  * 
@@ -129,6 +131,14 @@ public class SimpleDataSet extends DataSet<SimpleDataSet>
     public List<DataPoint> getBackingList()
     {
         return dataPoints;
+    }
+
+    public List<DataPoint> getBackingListCopy() {
+        List<DataPoint> copy = new ArrayList<>(dataPoints.size());
+        for(DataPoint dataPoint : dataPoints) {
+            copy.add(dataPoint);
+        }
+        return copy;
     }
 
     @Override
