@@ -4,32 +4,24 @@ clear
 
 echo "compiling... sources"
 
-(cd JSAT; mvn compile)
-(cd ABAGAIL; ant all);
+(cd depends/JSAT; mvn compile)
+(cd depends/ABAGAIL; ant all);
 
 echo "Done."
 
 echo "compiling project..."
 
-javac -cp src/:ABAGAIL/bin:JSAT/target/classes:stdlib.jar Example.java
+javac -cp src/:depends/ABAGAIL/bin:depends/JSAT/target/classes:stdlib.jar src/Example.java
 
 echo "done."
 echo ""
 echo ""
 echo "running..."
 
-java -cp src/:ABAGAIL/bin:JSAT/target/classes:stdlib.jar Example
+java -cp src/:depends/ABAGAIL/bin:depends/JSAT/target/classes:stdlib.jar Example
 
 echo ""
 echo ""
 echo "done."
 echo ""
 echo ""
-
-echo "cleaning up..."
-
-(cd JSAT; mvn clean)
-(cd ABAGAIL; ant clean)
-rm ./**/*.class
-
-echo "done."

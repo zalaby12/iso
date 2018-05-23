@@ -58,8 +58,11 @@ public final class StdAudio {
 
     private static final int BYTES_PER_SAMPLE = 3;                // 24-bit audio
     private static final int BITS_PER_SAMPLE = 24;                // 24-bit audio
+    private static final int CHANNELS = 1;
     private static final double MAX_24_BIT = Short.MAX_VALUE;     // 32,767
-    private static final int SAMPLE_BUFFER_SIZE = 4096;
+    private static final int SAMPLE_BUFFER_SIZE = 4098;
+    private static final boolean SIGNED = true;
+    private static final boolean BIG_ENDIAN = false;
 
 
     private static SourceDataLine line;   // to play the sound
@@ -80,7 +83,7 @@ public final class StdAudio {
     private static void init() {
         try {
             // 44,100 samples per second, 24-bit audio, mono, signed PCM, little Endian
-            AudioFormat format = new AudioFormat((float) SAMPLE_RATE, BITS_PER_SAMPLE, 1, true, false);
+            AudioFormat format = new AudioFormat((float) SAMPLE_RATE, BITS_PER_SAMPLE, CHANNELS, SIGNED, BIG_ENDIAN);
             DataLine.Info info = new DataLine.Info(SourceDataLine.class, format);
 
             line = (SourceDataLine) AudioSystem.getLine(info);
@@ -220,7 +223,7 @@ public final class StdAudio {
 
         // assumes 44,100 samples per second
         // use 24-bit audio, mono, signed PCM, little Endian
-        AudioFormat format = new AudioFormat(SAMPLE_RATE, 24, 2, true, false);
+        AudioFormat format = new AudioFormat(SAMPLE_RATE, BITS_PER_SAMPLE, CHANNELS, SIGNED, BIG_ENDIAN);
         byte[] data = new byte[2 * samples.length];
         for (int i = 0; i < samples.length; i++) {
             int temp = (short) (samples[i] * MAX_24_BIT);
@@ -385,7 +388,7 @@ public final class StdAudio {
 
     // create a note (sine wave) of the given frequency (Hz), for the given
     // duration (seconds) scaled to the given volume (amplitude)
-    private static double[] note(double hz, double duration, double amplitude) {
+    public static double[] note(double hz, double duration, double amplitude) {
         int n = (int) (StdAudio.SAMPLE_RATE * duration);
         double[] a = new double[n+1];
         for (int i = 0; i <= n; i++)
@@ -410,6 +413,8 @@ public final class StdAudio {
         for (int i = 0; i <= StdAudio.SAMPLE_RATE; i++) {
             StdAudio.play(0.5 * Math.sin(2*Math.PI * freq * i / StdAudio.SAMPLE_RATE));
         }
+
+        StdAudio.save("transformer.wav", note(440.0, 1, .5));
         
         // scale increments
         int[] steps = { 0, 2, 4, 5, 7, 9, 11, 12 };

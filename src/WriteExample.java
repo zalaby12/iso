@@ -32,7 +32,7 @@ public class WriteExample
 				for (int s=0 ; s<toWrite ; s++, frameCounter++)
 				{
 					buffer[0][s] = Math.sin(2.0 * Math.PI * 400 * frameCounter / sampleRate);
-					buffer[1][s] = Math.sin(2.0 * Math.PI * 500 * frameCounter / sampleRate);
+					buffer[1][s] = Math.sin(2.0 * Math.PI * 400 * frameCounter / sampleRate);
 				}
 
 				// Write the buffer
