@@ -2,3 +2,5 @@
 /*.iml
 /*._FINAL.wav
 /out
+/depends/*
+src/Example.class

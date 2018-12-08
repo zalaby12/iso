@@ -1,7 +1,5 @@
 #!/bin/bash
 
-clear
-
 echo "compiling... sources"
 
 (cd depends/JSAT; mvn compile)
@@ -25,3 +23,7 @@ echo ""
 echo "done."
 echo ""
 echo ""
+
+(cd src; rm *.class)
+(cd depends/JSAT; mvn clean)
+(cd depends/ABAGAIL; ant clean);
