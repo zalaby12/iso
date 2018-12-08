@@ -1,6 +1,6 @@
 /*.idea
 /*.iml
 /*._FINAL.wav
-./out
-./depends/*
-./bin
+out/*
+depends/*
+bin/*
