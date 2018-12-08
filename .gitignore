@@ -1,6 +1,5 @@
 /*.idea
 /*.iml
 /*._FINAL.wav
-/out
-/depends/*
-src/Example.class
+./out
+./depends/*

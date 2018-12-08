@@ -9,14 +9,14 @@ echo "Done."
 
 echo "compiling project..."
 
-javac -cp src/:depends/ABAGAIL/bin:depends/JSAT/target/classes:stdlib.jar src/Example.java
+javac -cp src/:depends/ABAGAIL/bin:depends/JSAT/target/classes:stdlib.jar -d bin src/Example.java
 
 echo "done."
 echo ""
 echo ""
 echo "running..."
 
-java -cp src/:depends/ABAGAIL/bin:depends/JSAT/target/classes:stdlib.jar Example
+java -cp bin/:depends/ABAGAIL/bin:depends/JSAT/target/classes:stdlib.jar Example
 
 echo ""
 echo ""
@@ -24,6 +24,6 @@ echo "done."
 echo ""
 echo ""
 
-(cd src; rm *.class)
-(cd depends/JSAT; mvn clean)
-(cd depends/ABAGAIL; ant clean);
+#(cd src; rm *.class)
+#(cd depends/JSAT; mvn clean)
+#(cd depends/ABAGAIL; ant clean);
