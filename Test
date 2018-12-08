@@ -24,6 +24,6 @@ echo "done."
 echo ""
 echo ""
 
-#(cd src; rm *.class)
-#(cd depends/JSAT; mvn clean)
-#(cd depends/ABAGAIL; ant clean);
+(cd src; rm *.class)
+(cd depends/JSAT; mvn clean)
+(cd depends/ABAGAIL; ant clean);
